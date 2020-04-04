@@ -1,0 +1,28 @@
+.banner{
+    background:url("./banner.png")!important;
+    position:relative;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:480px;
+}
+.heading{
+    font-size:100px;
+    font-weight:900;
+    color:white;
+    text-shadow:2px 5px 5px black;
+    transition:2s ease;
+    text-align:center;
+}
+.heading:hover{
+ color:black;
+ text-shadow:2px 5px 6px white;
+}
+
+/*.banner:before{
+    content:"";
+    position:absolute;
+    margin-top:-65px;
+    height:100%;
+    width:100%;
+    background-color:rgba(128,128,128,0.4);
+}*/
